@@ -1,0 +1,54 @@
+* {
+    text-align: center;
+}
+
+#header {
+    text-align: center;
+    color: rgb(231, 0, 0);
+    border: 3px dashed green;
+}
+
+.content {
+    background-color: yellowgreen;
+    font-size: 30px;
+    color: white;
+}
+
+b {
+    font-size: 26px;
+    color: red;
+    background-color: yellow;
+}
+
+.text {
+    color: yellow;
+    background-color: red;
+    font-size: 20px;
+    padding: 20px 0;
+    border-radius: 30%;
+}
+
+.text:hover {
+    background-color: yellowgreen;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 100px;
+    background-color: rgb(24, 94, 223);
+    color: white;
+    border: none;
+    font-size: 30px;
+    transition: .5s ease-in-out;
+    border-radius: 15%;
+}
+
+button:hover{
+    background-color: yellow;
+    color: red;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
